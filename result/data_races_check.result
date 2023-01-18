@@ -1,0 +1,8 @@
+$ make check
+use make check W=nworkers
+inspxe-cl -collect=ti3 -r check ./lu-omp 8000 `grep processor /proc/cpuinfo | wc -l`
+Analyzing data in the node-wide mode. The hostname (bc9u23n1) will be added to the result path/name.
+Warning: One or more threads in the application accessed the stack of another thread. This may indicate one or more bugs in your application. Setting the Inspector to detect data races on stack accesses and running another analysis may help you locate these and other bugs.
+LU Decomposition finished in: 765.6924 seconds for using 32 workers
+
+0 new problem(s) found

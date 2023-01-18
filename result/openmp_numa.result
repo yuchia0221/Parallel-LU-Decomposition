@@ -1,0 +1,12 @@
+LU Decomposition finished in: 205.8316 seconds for using 1 workers
+The sum of Euclidean norms is: 1.267895e-05
+LU Decomposition finished in: 98.3803 seconds for using 2 workers
+The sum of Euclidean norms is: 1.267895e-05
+LU Decomposition finished in: 58.0589 seconds for using 4 workers
+The sum of Euclidean norms is: 1.267895e-05
+LU Decomposition finished in: 45.0085 seconds for using 8 workers
+The sum of Euclidean norms is: 1.259253e-05
+LU Decomposition finished in: 43.4529 seconds for using 16 workers
+The sum of Euclidean norms is: 1.252113e-05
+LU Decomposition finished in: 49.4915 seconds for using 32 workers
+The sum of Euclidean norms is: 1.267895e-05
