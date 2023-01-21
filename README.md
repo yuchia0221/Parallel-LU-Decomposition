@@ -28,11 +28,11 @@ Makefile:
 > a Makefile that includes recipes for building and running your program.
 
 ```bash
-make        # builds your code
-make runp   # runs a parallel version of your code on W workers
-make runs   # runs a serial version of your code on one worker
-make check  # runs your parallel code with Intel Thread Checker
-make view   # inspect the results of make check with Intel's GUI.
+make                # builds your code
+make runp           # runs a parallel version of your code on W workers
+make runs           # runs a serial version of your code on one worker
+make check          # runs your parallel code with Intel Thread Checker
+make view           # inspect the results of make check with Intel's GUI.
 make run-hpc        # creates a HPCToolkit database for performance measurements
 make clean          # removes all executable files
 make clean-hpc      # removes all HPCToolkit-related files
